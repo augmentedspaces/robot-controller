@@ -224,8 +224,8 @@ class SimpleARView: ARView {
         }
     }
 
-    // Create scene with custom classes.
     func setupEntities() {
+        // Setup custom entities.
         robotEntity     = RobotEntity(name: "mrRobot")
         startPadEntity  = PadEntity(name: "startPad", length: 0.15, color: UIColor.yellow)
         finishPadEntity = PadEntity(name: "finishPad", length: 0.15, color: UIColor.green)
